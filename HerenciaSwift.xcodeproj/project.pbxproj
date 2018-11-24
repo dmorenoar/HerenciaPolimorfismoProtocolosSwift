@@ -14,6 +14,11 @@
 		FA65E97921A8F4E70003C6AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA65E97721A8F4E70003C6AD /* LaunchScreen.storyboard */; };
 		FA65E98421A8F4E70003C6AD /* HerenciaSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65E98321A8F4E70003C6AD /* HerenciaSwiftTests.swift */; };
 		FA65E98F21A8F4E70003C6AD /* HerenciaSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65E98E21A8F4E70003C6AD /* HerenciaSwiftUITests.swift */; };
+		FA65E99D21A8F4FD0003C6AD /* Infectado.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65E99C21A8F4FD0003C6AD /* Infectado.swift */; };
+		FA65E99F21A992E50003C6AD /* Boomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65E99E21A992E50003C6AD /* Boomer.swift */; };
+		FA65E9A121A992EF0003C6AD /* Hunter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65E9A021A992EF0003C6AD /* Hunter.swift */; };
+		FA65E9A621A993980003C6AD /* FuncionesHorda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65E9A521A993980003C6AD /* FuncionesHorda.swift */; };
+		FA65E9A821A9A10C0003C6AD /* Horda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65E9A721A9A10C0003C6AD /* Horda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		FA65E98A21A8F4E70003C6AD /* HerenciaSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HerenciaSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA65E98E21A8F4E70003C6AD /* HerenciaSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerenciaSwiftUITests.swift; sourceTree = "<group>"; };
 		FA65E99021A8F4E70003C6AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA65E99C21A8F4FD0003C6AD /* Infectado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infectado.swift; sourceTree = "<group>"; };
+		FA65E99E21A992E50003C6AD /* Boomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boomer.swift; sourceTree = "<group>"; };
+		FA65E9A021A992EF0003C6AD /* Hunter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hunter.swift; sourceTree = "<group>"; };
+		FA65E9A521A993980003C6AD /* FuncionesHorda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncionesHorda.swift; sourceTree = "<group>"; };
+		FA65E9A721A9A10C0003C6AD /* Horda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		FA65E96D21A8F4E50003C6AD /* HerenciaSwift */ = {
 			isa = PBXGroup;
 			children = (
+				FA65E9A421A993280003C6AD /* Clases */,
 				FA65E96E21A8F4E50003C6AD /* AppDelegate.swift */,
 				FA65E97021A8F4E50003C6AD /* ViewController.swift */,
 				FA65E97221A8F4E50003C6AD /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				FA65E99021A8F4E70003C6AD /* Info.plist */,
 			);
 			path = HerenciaSwiftUITests;
+			sourceTree = "<group>";
+		};
+		FA65E9A421A993280003C6AD /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				FA65E99C21A8F4FD0003C6AD /* Infectado.swift */,
+				FA65E99E21A992E50003C6AD /* Boomer.swift */,
+				FA65E9A021A992EF0003C6AD /* Hunter.swift */,
+				FA65E9A521A993980003C6AD /* FuncionesHorda.swift */,
+				FA65E9A721A9A10C0003C6AD /* Horda.swift */,
+			);
+			path = Clases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA65E9A121A992EF0003C6AD /* Hunter.swift in Sources */,
+				FA65E9A821A9A10C0003C6AD /* Horda.swift in Sources */,
+				FA65E9A621A993980003C6AD /* FuncionesHorda.swift in Sources */,
+				FA65E99D21A8F4FD0003C6AD /* Infectado.swift in Sources */,
 				FA65E97121A8F4E50003C6AD /* ViewController.swift in Sources */,
 				FA65E96F21A8F4E50003C6AD /* AppDelegate.swift in Sources */,
+				FA65E99F21A992E50003C6AD /* Boomer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
