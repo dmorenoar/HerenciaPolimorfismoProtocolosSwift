@@ -50,11 +50,21 @@ class ViewController: UIViewController {
             print("Mi id de horda es:" , infectado.idHorda)
             
             print("************************")
-            
         }
         
+        //Ejemplo de uso con switch case
+        for infectado in zombies {
+            switch infectado {
+            case let boomer as Boomer:
+                print("Es un boomer")
+            case let hunter as Hunter:
+                print("Es un hunter")
+            default:
+                print("No es de ningún tipo")
+            }
+            
+        }
+  
     }
-
-
 }
 
